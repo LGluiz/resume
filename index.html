@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luiz Guilherme Santos Borges Mariano - Desenvolvedor de Software Sênior | Flutter & Mobile Full Stack</title>
+  <meta name="description" content="Currículo de Luiz Guilherme Mariano - Engenheiro de Software Sênior especializado em Flutter, Mobile Full Stack, Offline-First, Agronegócio, Fintechs e Soluções Escaláveis.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/perfil.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Action Bar (Web Only) -->
+  <aside class="floating-dock no-print" aria-label="Ações rápidas">
+    <button id="themeToggleBtn" class="dock-btn" title="Alternar Modo Escuro/Claro" aria-label="Alternar tema">
+      <i class="fa-solid fa-moon"></i>
+      <span class="btn-text">Tema</span>
+    </button>
+    <button id="printBtn" class="dock-btn primary" title="Salvar como PDF ou Imprimir (Cmd+P / Ctrl+P)" aria-label="Imprimir currículo">
+      <i class="fa-solid fa-file-pdf"></i>
+      <span class="btn-text">Baixar PDF</span>
+    </button>
+    <a href="https://wa.me/5535988113338" target="_blank" rel="noopener noreferrer" class="dock-btn whatsapp" title="Conversar no WhatsApp" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="btn-text">WhatsApp</span>
+    </a>
+  </aside>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div class="resume-wrapper">
+    <main class="resume-sheet">
+
+      <!-- HEADER SECTION -->
+      <header class="resume-header">
+        <div class="header-main">
+          <div class="avatar-container">
+            <img src="assets/perfil.jpg" alt="Foto de Luiz Guilherme Mariano" class="avatar-img" width="140" height="140">
+            <span class="status-indicator" title="Disponível para projetos e oportunidades"></span>
+          </div>
+
+          <div class="header-titles">
+            <div class="badge-row">
+              <span class="tag-status"><i class="fa-solid fa-circle-check"></i> +8 Anos de Experiência</span>
+              <span class="tag-badge">Tech Lead & Arquiteto Mobile</span>
+            </div>
+            <h1 class="candidate-name">Luiz Guilherme Santos Borges Mariano</h1>
+            <p class="candidate-headline">Engenheiro de Software Sênior | Especialista Flutter & Mobile Full Stack</p>
+            
+            <ul class="contact-links" aria-label="Contatos e Links">
+              <li>
+                <a href="mailto:lgluizguilherme@hotmail.com" id="copyEmailLink" title="Clique para copiar o email">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>lgluizguilherme@hotmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+5535988113338">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>(35) 98811-3338</span>
+                </a>
+              </li>
+              <li>
+                <span class="location-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>São Sebastião do Paraíso, MG (Remoto / Híbrido)</span>
+                </span>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/luiz-guiiherme-98a4b834b/" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span>linkedin.com/in/luiz-guiiherme-98a4b834b</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- TWO COLUMN LAYOUT -->
+      <div class="resume-body">
+
+        <!-- MAIN COLUMN (Left / 65%) -->
+        <div class="column-primary">
+
+          <!-- RESUMO PROFISSIONAL -->
+          <section class="resume-section">
+            <h2 class="section-title">
+              <i class="fa-solid fa-user-tie icon-accent"></i>
+              <span>Perfil Profissional</span>
+            </h2>
+            <p class="summary-text">
+              Engenheiro de Software com mais de <strong>8 anos de experiência sólida</strong> no ciclo completo de desenvolvimento de aplicações móveis, sistemas de missão crítica e produtos digitais corporativos. Amplo domínio do ecossistema <strong>Flutter / Dart</strong>, arquiteturas <strong>Offline-First</strong> (SQLite / sincronização bidirecional), integração com hardware móvel (GPS, câmera, gravação e processamento de áudio) e soluções de inteligência de negócios.
+            </p>
+            <p class="summary-text">
+              Forte histórico no agronegócio (Barter, crédito rural com lastro em safra e CRM de campo com cooperativas como Coopercitrus), fintechs (KYC / biometria via Idwall, antecipação de recebíveis, pagamentos) e criador de produtos digitais autorais de ponta como <strong>Black Market</strong> (micromercados autônomos com self-checkout), <strong>Smart Ficha</strong> (plataforma fitness com IA), <strong>Jalu Controle</strong> (ERP de produção e custos) e <strong>Minhas Finanças</strong> (controle financeiro pessoal offline-first).
+            </p>
+          </section>
+
+          <!-- EXPERIÊNCIA PROFISSIONAL -->
+          <section class="resume-section">
+            <h2 class="section-title">
+              <i class="fa-solid fa-briefcase icon-accent"></i>
+              <span>Experiência Profissional</span>
+            </h2>
+
+            <!-- EMPRESA: E-CTARE -->
+            <article class="job-card">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-role">Engenheiro de Software Sênior / Tech Lead Mobile</h3>
+                  <div class="job-company">
+                    <span class="company-name">E-ctare</span>
+                    <span class="company-dot">•</span>
+                    <span class="company-type">Fintech & Agronegócio</span>
+                  </div>
+                </div>
+                <div class="job-period">
+                  <span class="badge-time">Novembro 2017 – Presente</span>
+                  <span class="job-location">São Sebastião do Paraíso, MG</span>
+                </div>
+              </div>
+
+              <p class="job-overview">
+                Liderança técnica e desenvolvimento full stack de plataformas estratégicas integrando mobile, APIs e bancos de dados para o agronegócio e cooperativas de crédito:
+              </p>
+
+              <div class="sub-projects">
+                <div class="sub-project-item">
+                  <div class="project-headline">
+                    <strong>E-ctare Barter & Cooperativas (ex: Coopercitrus):</strong>
+                    <span class="project-tags">Flutter • Dart • SQLite Offline-First • Georreferenciamento • PDF Generator</span>
+                  </div>
+                  <ul class="job-bullets">
+                    <li>Desenvolvimento do aplicativo corporativo de <strong>Barter e concessão de crédito rural</strong> lastreado em produção de safra para grandes cooperativas.</li>
+                    <li>Arquitetura <strong>Offline-First robusta</strong> com banco local SQLite/sqflite e sincronização resiliente, viabilizando uso de campo por consultores em zonas rurais sem cobertura de internet.</li>
+                    <li>Módulos de <strong>perícia agronômica</strong> com geolocalização e fotos georreferenciadas, laudos em campo com <strong>gravação de áudio e transcrição via voz (Speech-to-Text)</strong> e geração instantânea de cédulas e contratos em PDF vetorizado.</li>
+                  </ul>
+                </div>
+
+                <div class="sub-project-item">
+                  <div class="project-headline">
+                    <strong>E-ctare CRM & Carteira do Produtor:</strong>
+                    <span class="project-tags">Flutter • MVVM • REST APIs • Geolocalização</span>
+                  </div>
+                  <ul class="job-bullets">
+                    <li>Construção de CRM de campo para agrônomos e gestores comerciais gerenciarem fazendas, histórico de visitas, culturas plantadas e projeções de venda de insumos.</li>
+                  </ul>
+                </div>
+
+                <div class="sub-project-item">
+                  <div class="project-headline">
+                    <strong>Esteira Antifraude & KYC (Idwall SDK) e Ponto Eletrônico:</strong>
+                    <span class="project-tags">Biometria Facial • OCR de Documentos • Segurança</span>
+                  </div>
+                  <ul class="job-bullets">
+                    <li>Integração de SDKs de segurança da <strong>Idwall</strong> para biometria facial viva e OCR inteligente de CNH/RG no onboarding de produtores, reduzindo fraudes cadastrais.</li>
+                    <li>Desenvolvimento de aplicativo móvel de <strong>Ponto Eletrônico</strong> com validação de jornada, segurança de horários e regras de conformidade trabalhista.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- SEÇÃO DE PROJETOS AUTORAIS E EMPREENDEDORISMO -->
+            <div class="projects-divider-box">
+              <h3 class="projects-group-title">
+                <i class="fa-solid fa-rocket icon-accent"></i>
+                <span>Projetos Autorais & Empreendedorismo</span>
+              </h3>
+            </div>
+
+            <!-- PROJETO AUTORAL: BLACK MARKET -->
+            <article class="job-card">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-role">Arquiteto de Software & Fundador</h3>
+                  <div class="job-company">
+                    <span class="company-name">Black Market</span>
+                    <span class="company-dot">•</span>
+                    <span class="company-type">Micromercados Autônomos & Smart Retail</span>
+                  </div>
+                </div>
+                <div class="job-period">
+                  <span class="badge-time">Projeto Autoral</span>
+                  <span class="job-location">Mobile Multi-App (Cliente & Lojista)</span>
+                </div>
+              </div>
+
+              <div class="project-headline">
+                <span class="project-tags">Flutter • Dart • Scanner Código de Barras • Pix Dinâmico • Self-Checkout • Gestão Remota</span>
+              </div>
+
+              <ul class="job-bullets">
+                <li>Concepção, arquitetura e desenvolvimento integral de um ecossistema completo para micro mercados autônomos 24 horas (<em>honest markets</em> instalados em condomínios residenciais e empresas).</li>
+                <li><strong>App do Consumidor (Self-Checkout)</strong>: Escaneamento ágil de códigos de barras via câmera nativa, carrinho de compras dinâmico, validação de cadastro e geração de pagamento instantâneo via Pix Copia e Cola / QR Code dinâmico, eliminando a necessidade de caixas físicos.</li>
+                <li><strong>App do Lojista & Gestão</strong>: Painel operacional para atualização de preços em tempo real por unidade, controle de reposição e estoque mínimo, conciliação financeira automatizada e relatórios analíticos de vendas.</li>
+              </ul>
+            </article>
+
+            <!-- PROJETO AUTORAL: SMART FICHA -->
+            <article class="job-card">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-role">Arquiteto de Software & Criador</h3>
+                  <div class="job-company">
+                    <span class="company-name">Smart Ficha</span>
+                    <span class="company-dot">•</span>
+                    <span class="company-type">SaaS Fitness & Gestão</span>
+                  </div>
+                </div>
+                <div class="job-period">
+                  <span class="badge-time">2025 – Presente</span>
+                  <span class="job-location">Multiplataforma (iOS, Android, Web)</span>
+                </div>
+              </div>
+
+              <div class="project-headline">
+                <span class="project-tags">Flutter 3.13+ • Dart • Cloud Firestore • Firebase Auth • MVVM • Multi-Agent AI</span>
+              </div>
+
+              <ul class="job-bullets">
+                <li>Idealização e construção de plataforma completa voltada para Personal Trainers e alunos: prescrição dinâmica de treinos (divisões A/B/C/D), controle de sobrecarga progressiva e histórico de cargas.</li>
+                <li>Experiência de treino imersiva com cronômetro regressivo com alertas sonoros e táteis, além de módulo de avaliação física com cálculo automático de percentual de gordura (dobras cutâneas).</li>
+                <li>Monetização integrada com cobrança de mensalidades via Pix e arquitetura modular governada por padrões MVVM desacoplados e sistema multi-agente de engenharia.</li>
+              </ul>
+            </article>
+
+            <!-- PROJETO AUTORAL: JALU CONTROLE -->
+            <article class="job-card">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-role">Arquiteto de Software & Criador</h3>
+                  <div class="job-company">
+                    <span class="company-name">Jalu Controle</span>
+                    <span class="company-dot">•</span>
+                    <span class="company-type">ERP Confeitaria & Indústria Artesanal</span>
+                  </div>
+                </div>
+                <div class="job-period">
+                  <span class="badge-time">2025 – Presente</span>
+                  <span class="job-location">Flutter & Mobile</span>
+                </div>
+              </div>
+
+              <div class="project-headline">
+                <span class="project-tags">Flutter • Dart • MVVM • ChangeNotifier • Relatórios PDF • Gestão de Custos</span>
+              </div>
+
+              <ul class="job-bullets">
+                <li>Desenvolvimento de ERP vertical para confeitarias e indústrias de alimentos artesanais: engenharia de cardápio com fichas técnicas de receitas e cálculo automático do custo por porção.</li>
+                <li>Simulador e precificador dinâmico inteligente com base em margem de lucro desejada, horas trabalhadas e índice de desperdício/perdas.</li>
+                <li>Controle granular de insumos por lotes e datas de validade, com motor interno de emissão e compartilhamento de recibos comerciais e extratos em PDF vetorizado.</li>
+              </ul>
+            </article>
+
+            <!-- PROJETO AUTORAL: MINHAS FINANÇAS -->
+            <article class="job-card">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-role">Arquiteto de Software & Criador</h3>
+                  <div class="job-company">
+                    <span class="company-name">Minhas Finanças</span>
+                    <span class="company-dot">•</span>
+                    <span class="company-type">Controle Financeiro Pessoal & Orçamentos</span>
+                  </div>
+                </div>
+                <div class="job-period">
+                  <span class="badge-time">Projeto Autoral</span>
+                  <span class="job-location">Flutter & Mobile</span>
+                </div>
+              </div>
+
+              <div class="project-headline">
+                <span class="project-tags">Flutter • Dart • SQLite (sqflite) • Cloud Firestore • Firebase Auth • Offline-First</span>
+              </div>
+
+              <ul class="job-bullets">
+                <li>Desenvolvimento de aplicativo móvel para gestão financeira pessoal com ênfase em usabilidade sem fricção, alta performance e soberania de dados.</li>
+                <li>Arquitetura híbrida <strong>Offline-First</strong>: armazenamento local estruturado com SQLite para lançamentos instantâneos sem internet, complementado com sincronização em nuvem via Cloud Firestore para backup seguro e uso multi-dispositivo.</li>
+                <li>Controle de fluxo de caixa mensal, categorização visual de receitas e despesas, dashboard de saúde financeira, saldo consolidado e rotinas de importação/exportação de dados.</li>
+              </ul>
+            </article>
+
+          </section>
+
+        </div>
+
+        <!-- SIDEBAR COLUMN (Right / 35%) -->
+        <aside class="column-secondary">
+
+          <!-- COMPETÊNCIAS / SKILLS -->
+          <section class="resume-section">
+            <h2 class="section-title">
+              <i class="fa-solid fa-code icon-accent"></i>
+              <span>Competências Técnicas</span>
+            </h2>
+
+            <div class="skill-group">
+              <h4 class="skill-category">Linguagens & Frontend Mobile</h4>
+              <div class="skill-tags">
+                <span class="tag-tech primary">Flutter</span>
+                <span class="tag-tech primary">Dart</span>
+                <span class="tag-tech">Java</span>
+                <span class="tag-tech">Kotlin</span>
+                <span class="tag-tech">JavaScript</span>
+                <span class="tag-tech">HTML5 / CSS3</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-category">Arquitetura & Engenharia</h4>
+              <div class="skill-tags">
+                <span class="tag-tech highlight">MVVM</span>
+                <span class="tag-tech highlight">Offline-First Sync</span>
+                <span class="tag-tech">Clean Architecture</span>
+                <span class="tag-tech">ChangeNotifier / Provider</span>
+                <span class="tag-tech">Design Systems</span>
+                <span class="tag-tech">Modularização</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-category">Bancos de Dados & Armazenamento</h4>
+              <div class="skill-tags">
+                <span class="tag-tech">SQLite / sqflite</span>
+                <span class="tag-tech">Cloud Firestore</span>
+                <span class="tag-tech">PostgreSQL</span>
+                <span class="tag-tech">MySQL</span>
+                <span class="tag-tech">Firebase Storage</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-category">Recursos Nativos & Integrações</h4>
+              <div class="skill-tags">
+                <span class="tag-tech">Geolocalização / GPS</span>
+                <span class="tag-tech">Gravação de Áudio</span>
+                <span class="tag-tech">Speech-to-Text</span>
+                <span class="tag-tech">Geração de PDFs</span>
+                <span class="tag-tech">Idwall (KYC/Biometria)</span>
+                <span class="tag-tech">REST APIs</span>
+                <span class="tag-tech">Integração Pix</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-category">Ferramentas & Ambientes</h4>
+              <div class="skill-tags">
+                <span class="tag-tech">VS Code</span>
+                <span class="tag-tech">Android Studio</span>
+                <span class="tag-tech">Xcode</span>
+                <span class="tag-tech">Git</span>
+                <span class="tag-tech">Firebase Console</span>
+                <span class="tag-tech">Postman</span>
+              </div>
+            </div>
+          </section>
+
+          <!-- FORMAÇÃO ACADÊMICA -->
+          <section class="resume-section">
+            <h2 class="section-title">
+              <i class="fa-solid fa-graduation-cap icon-accent"></i>
+              <span>Formação Acadêmica</span>
+            </h2>
+
+            <div class="edu-card">
+              <h3 class="edu-degree">Pós-Graduação em Desenvolvimento Web</h3>
+              <p class="edu-institution">Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais (IFSULDEMINAS)</p>
+              <span class="edu-period">2018 – 2020</span>
+            </div>
+
+            <div class="edu-card">
+              <h3 class="edu-degree">Bacharelado em Sistemas de Informação</h3>
+              <p class="edu-institution">Libertas Faculdades Integradas</p>
+              <span class="edu-period">2014 – 2017</span>
+            </div>
+          </section>
+
+          <!-- IDIOMAS -->
+          <section class="resume-section">
+            <h2 class="section-title">
+              <i class="fa-solid fa-globe icon-accent"></i>
+              <span>Idiomas</span>
+            </h2>
+
+            <div class="lang-item">
+              <div class="lang-info">
+                <strong>Português</strong>
+                <span class="lang-level">Nativo</span>
+              </div>
+              <div class="lang-bar">
+                <div class="lang-fill" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="lang-item">
+              <div class="lang-info">
+                <strong>Inglês</strong>
+                <span class="lang-level">Técnico (Leitura e Documentação)</span>
+              </div>
+              <div class="lang-bar">
+                <div class="lang-fill" style="width: 55%;"></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- DIFERENCIAIS -->
+          <section class="resume-section differentials-box">
+            <h2 class="section-title">
+              <i class="fa-solid fa-award icon-accent"></i>
+              <span>Diferenciais</span>
+            </h2>
+            <ul class="differentials-list">
+              <li><i class="fa-solid fa-check text-accent"></i> <strong>Vivência de Campo:</strong> Entendimento profundo das reais dores operacionais de clientes e consultores no agronegócio.</li>
+              <li><i class="fa-solid fa-check text-accent"></i> <strong>Visão de Produto:</strong> Capacidade de transitar do entendimento de negócios até a engenharia técnica e entrega final.</li>
+              <li><i class="fa-solid fa-check text-accent"></i> <strong>Pioneirismo com IA:</strong> Uso prático de engenharia assistida por agentes inteligentes e fluxos automatizados de código.</li>
+            </ul>
+          </section>
+
+        </aside>
+
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="resume-footer">
+        <p>Curriculo atualizado em 2026 • Desenvolvido por Luiz Guilherme Mariano • Disponível em formato digital e para impressão</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1000,3 +1000,52 @@ body {
     color: #0f172a !important;
   }
 }
+
+/* ==========================================================================
+   PROJECT LINKS (Web / Android / iOS)
+   ========================================================================== */
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-heading);
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-light);
+  background: var(--accent-light);
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.project-links a:hover {
+  border-color: var(--accent-primary);
+  transform: translateY(-1px);
+}
+
+@media print {
+  .project-links {
+    margin-top: 4px !important;
+    gap: 10px !important;
+  }
+  .project-links a {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-size: 0.72rem !important;
+  }
+  .project-links a::after {
+    content: " (" attr(href) ")";
+    font-weight: 400;
+    color: #475569;
+  }
+}
